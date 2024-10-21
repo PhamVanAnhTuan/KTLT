@@ -1,1 +1,25 @@
+public class phamvananhtuan {
+    public static void main(String[] args) {
+        // Khai báo các biến chứa thông tin sinh viên
+        String maSinhVien = "107405";
+        String hoVaTen = "Phạm Văn Anh Tuấn";
+        String ngaySinh = "12/05/2006";
+        String lop = "GD24A";
+        String khoa = "Công nghệ thông tin";
+        String diaChi = "Số 91, Đường 2/9";
+        int tuoi = 18;  // Thay đổi tuổi hợp lý với ngày sinh
+        boolean gioiTinh = true;  // true: Nam, false: Nữ
 
+        // In ra thông tin sinh viên
+        System.out.println("-----THÔNG TIN SINH VIÊN-----");
+        System.out.println("Mã sinh viên: " + maSinhVien);
+        System.out.println("Họ và tên: " + hoVaTen);
+        System.out.println("Ngày sinh: " + ngaySinh);
+        System.out.println("Tuổi: " + tuoi);
+        System.out.println("Giới tính: " + (gioiTinh ? "Nam" : "Nữ"));
+        System.out.println("Lớp: " + lop);
+        System.out.println("Khoa: " + khoa);
+        System.out.println("Địa chỉ: " + diaChi);
+        System.out.println("-----HẾT-----");
+    }
+}
